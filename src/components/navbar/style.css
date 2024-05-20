@@ -1,0 +1,113 @@
+.nav-main {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 56px;
+    top:62px;
+    margin-left:211px;
+    margin-right:211px;
+  }
+  
+  .logo-container {
+    flex: 1;
+  }
+  
+  .logo-image {
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: none;
+  }
+  
+  .auth-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .auth-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-button {
+   font-weight: 700;
+   border: none;
+  background-color: white;
+  }
+  
+  .signup-button {
+    background-color:rgba(233, 67, 57, 1);
+    color: white;
+    font-weight: 700;
+    padding: 20px 25px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+ 
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+.drop-down-page-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .dropdown-menu li {
+    padding: 10px;
+  }
+  
+  .dropdown-menu li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #f1f1f1;
+  }
