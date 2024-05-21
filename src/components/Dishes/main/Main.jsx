@@ -1,4 +1,5 @@
-import FoodItem from "../FoodItem/FoodItem"
+import FoodItem from "../foodItem/FoodItem"
+import OrderProcess from "../order/OrderProcess"
 import "./style.css"
 
 const Main = () => {
@@ -9,6 +10,7 @@ const Main = () => {
         <p>Welcome to The Biggest Network of Food Ordering & Delivery</p>
         </div>
         <FoodItem/>
+        <OrderProcess/>
     </div>
   )
 }
