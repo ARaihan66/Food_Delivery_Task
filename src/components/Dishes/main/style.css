@@ -1,0 +1,16 @@
+
+
+.dishes{
+    text-align: center;
+}
+
+.dishes span{
+    color: red;
+}
+
+.dishes h3{
+    margin: 5px 0px;
+    font-weight: 600;
+}
+
+
