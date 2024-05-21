@@ -1,11 +1,10 @@
 .nav-main {
     display: flex;
-    position: relative;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     height: 56px;
-    top:62px;
+    margin-top:62px;
     margin-left:211px;
     margin-right:211px;
   }
@@ -89,8 +88,8 @@
   .dropdown-menu {
     display: none;
     position: absolute;
-    top: 60%;
-    left: 60%;
+    top: 23%;
+    left: 56%;
     background-color: white;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     list-style: none;

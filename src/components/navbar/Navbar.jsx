@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className='nav-main'>
       <div className='logo-container'>
-        <img src={Logo} alt='Logo' className='logo-image' />
+       <a href='/'> <img src={Logo} alt='Logo' className='logo-image' /></a>
       </div>
       <ul className='nav-links'>
         <li><a href="/restaurants">Restaurants</a></li>
