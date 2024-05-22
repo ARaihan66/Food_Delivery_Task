@@ -1,0 +1,44 @@
+.newsletter-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 239, 236, 1);
+    padding: 20px;
+}
+
+.newsletter-input {
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  
+  .newsletter-input input {
+    outline: none;
+    border: none;
+    background: rgba(246, 246, 246, 1);
+    color: black;
+    padding: 15px;
+    border-radius: 20px;
+  }
+  
+  .newsletter-input button {
+    outline: none;
+    border: none;
+    background: rgba(255, 83, 49, 1);
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
