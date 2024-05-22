@@ -43,6 +43,7 @@ const FoodItem = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.”
           </p>
         </div>
+        <div className="food-container">
         <div className="food">
           <div className="food-image">
             <img src={pizza} alt="" />
@@ -60,6 +61,7 @@ const FoodItem = () => {
             <img src={pizza} alt="" />
           </div>
           <h5>Desserts</h5>
+        </div>
         </div>
       </div>
     </div>

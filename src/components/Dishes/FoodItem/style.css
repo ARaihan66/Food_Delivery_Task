@@ -93,4 +93,11 @@ flex-direction: column;
         flex-direction: column;
         margin: 20px;
     }
+    
+    .main-bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
 }
