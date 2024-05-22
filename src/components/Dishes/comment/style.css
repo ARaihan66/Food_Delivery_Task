@@ -1,0 +1,134 @@
+/*.client-feedback{
+    text-align: center;
+}
+
+.quote-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    color: red;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+  }
+  
+  .comment {
+    width: 50%;
+    padding: 20px;
+    margin: 0 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .button-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+  }
+  
+  .nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 40px;
+    width: 40px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 1rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.button-symble{
+    color: black;
+}
+  
+.nav-button:hover {
+    background: rgba(255, 83, 49, 1);
+  }
+  */
+
+  .client-feedback {
+    text-align: center;
+  }
+  
+  .quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quote {
+    color: red;
+    font-size: 2rem; /* Adjust size as needed */
+  }
+  
+  .slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+  }
+  
+  .comment {
+    width: 50%;
+    padding: 20px;
+    margin: 0 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    background: #ddd;
+  }
+  
+  .button-symbol {
+    color: black;
+  }
+  
+  .nav-button:hover {
+    background: rgba(255, 83, 49, 1);
+  }
+  

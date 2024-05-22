@@ -1,6 +1,7 @@
 import "./style.css"
 import pizza from "../../../assets/Logo.png";
 import bike from "../../../assets/bike.png";
+import { RiDoubleQuotesR } from "react-icons/ri";
 
 const FoodItem = () => {
   return (
@@ -29,7 +30,10 @@ const FoodItem = () => {
             </div>
         </div>
         <div className="main-bottom">
+       <div className="bottom-quote">
+       <RiDoubleQuotesR className="quote"/>
             <p className="bottom-text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
+       </div>
             <div className="food">
                 <div className="food-image">
                     <img src={pizza} alt="" />

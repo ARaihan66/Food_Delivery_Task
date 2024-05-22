@@ -69,6 +69,16 @@
     margin-right: 150px;
 }
 
+.bottom-quote{
+display: flex;
+flex-direction: column;
+}
+
+.quote{
+    height: 80px;
+    width: 30px;
+}
+
 .bottom-text{
     flex:4;
 }
