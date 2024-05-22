@@ -3,7 +3,7 @@ import FoodItem from "../foodItem/FoodItem";
 import OrderProcess from "../order/OrderProcess";
 import "./style.css";
 
-const Main = () => {
+const MainComponent = () => {
   return (
     <div className="dishes-main">
       <div className="dishes">
@@ -12,11 +12,11 @@ const Main = () => {
         </h3>
         <p>Welcome to The Biggest Network of Food Ordering & Delivery</p>
       </div>
-      <FoodItem />
+     <FoodItem/>
       <OrderProcess />
       <Comment />
     </div>
   );
 };
 
-export default Main;
+export default MainComponent;

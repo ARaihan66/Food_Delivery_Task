@@ -1,4 +1,4 @@
-import Main from "../components/Dishes/main/Main";
+import MainComponent from "../components/Dishes/mainComponent/MainComponent";
 import Footer from "../components/footer/Footer";
 import HeroSection from "../components/heroSection/HeroSection";
 import Navbar from "../components/navbar/Navbar";
@@ -9,9 +9,9 @@ const Home = () => {
     <div>
       <Navbar />
       <HeroSection />
-      <Main />
-      <NewsLetter/>
-      <Footer/>
+      <MainComponent />
+      <NewsLetter />
+      <Footer />
     </div>
   );
 };
