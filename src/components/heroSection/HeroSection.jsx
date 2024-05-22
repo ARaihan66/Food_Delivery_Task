@@ -17,7 +17,7 @@ const HeroSection = () => {
           <input type="text" placeholder="Enter your delivery location" />
           <button>Order Now</button>
         </div>
-        <div className="app-download">
+        {/*<div className="app-download">
           <div className="apple">
            <div> <img src={apple_logo} alt="apple" /></div>
            <div>
@@ -33,7 +33,31 @@ const HeroSection = () => {
             <p>Download on the</p>
             <h4>App Store</h4>
            </div></div>
-        </div>
+        </div>*/}
+            <div className="app-download">
+            <div className="download-apple">
+              <div className="app-store-button">
+                <img src={apple_logo} alt="Apple Logo" className="apple-logo" />
+                <div className="text">
+                  <div className="download">Download on the</div>
+                  <div className="app-store">App Store</div>
+                </div>
+              </div>
+            </div>
+            <div className="download-android">
+              <div className="app-store-button">
+                <img
+                  src={android_logo}
+                  alt="Apple Logo"
+                  className="apple-logo"
+                />
+                <div className="text">
+                  <div className="download">Download on the</div>
+                  <div className="app-store">App Store</div>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
       <div className="hero-right">
         <img src="https://s3-alpha-sig.figma.com/img/0afb/6020/4facbc308fcee84e7051f4621a15b790?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jBzDJF1rqMN07G6RU9PPPNn6za6nYUNZkPiVYUEGeKg4xLBDSESmIQT348YBWl72ul1vj0PObRHMtvItR9Mt-ftgYPObTlc6GliDGSTYDZRBizsaZzpWQ~9RhlBM4-FOktk5pecTS2h6T6izb0EXRiNE-iQNIdicsiG8UK5au7pG-0o5z1gYgF~XiuPjMzY5dgD4SAnbqUBQVqgKNswOLHT6xm-aP8TmO3JXMft6dchVxJTGbqx9OsWJucLktWpYudtXdfbkGVGqbK9oqOQ4mj8WCzL99BKEcSIeG5wCfGdHGMfyQBUVGslcnxI5zXbThRA3SgpczK~vGmkFZHbYJQ__" alt="delivery_man" />

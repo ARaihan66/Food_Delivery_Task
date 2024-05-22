@@ -82,3 +82,10 @@ flex-direction: column;
 .bottom-text{
     flex:4;
 }
+
+/*@media(max-width: 768px) {
+    .main-top{
+        flex-direction: column;
+        margin: 20px;
+    }
+}*/
