@@ -3,7 +3,7 @@ import pizza from "../../../assets/Logo.png";
 import bike from "../../../assets/bike.png";
 import { RiDoubleQuotesR } from "react-icons/ri";
 
-const FoodItem = () => {
+const Delivery = () => {
   return (
     <div className="main">
       <div className="main-top">
@@ -68,4 +68,4 @@ const FoodItem = () => {
   );
 };
 
-export default FoodItem;
+export default Delivery;
