@@ -16,4 +16,11 @@
     font-weight: 600;
 }
 
+@media(max-width: 768px) {
+    .dishes-main{
+        margin: 20px;
+    }
+    
+}
+
 
