@@ -4,6 +4,7 @@ import apple_logo from "../../assets/apple_logo.png";
 import android_logo from "../../assets/android_logo.png";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <div className="footer-main">
       <div className="footer">
@@ -73,7 +74,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2023 pizza All right reserved</p>
+      <p>© {currentYear} Pizza. All rights reserved.</p>
         <div className="footer-links">
           <span>Privacy</span>
           <span>Policy</span>
