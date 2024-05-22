@@ -62,4 +62,10 @@
   .nav-button:hover {
     background: rgba(255, 83, 49, 1);
   }
+
+  @media(max-width: 768px) {
+    .comment {
+      width: 100%;
+    }
+}
   
