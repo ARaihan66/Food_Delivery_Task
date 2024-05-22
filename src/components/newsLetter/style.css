@@ -42,3 +42,16 @@
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
   }
+
+  @media(max-width: 768px) {
+    
+    .newsletter-main{
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    .newsletter-input{
+      width: 100%;
+      margin: 20px 0px;
+    }
+  }
