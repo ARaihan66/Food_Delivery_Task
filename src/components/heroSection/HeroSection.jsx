@@ -17,23 +17,6 @@ const HeroSection = () => {
           <input type="text" placeholder="Enter your delivery location" />
           <button>Order Now</button>
         </div>
-        {/*<div className="app-download">
-          <div className="apple">
-           <div> <img src={apple_logo} alt="apple" /></div>
-           <div>
-            <p>Download on the</p>
-            <h4>App Store</h4>
-           </div>
-          </div>
-          <div className="android"> 
-            <div>
-            <img src={android_logo} alt="android" />
-            </div>
-          <div>
-            <p>Download on the</p>
-            <h4>App Store</h4>
-           </div></div>
-        </div>*/}
             <div className="app-download">
             <div className="download-apple">
               <div className="app-store-button">

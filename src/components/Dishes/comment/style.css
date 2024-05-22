@@ -1,6 +1,10 @@
 .client-feedback {
     text-align: center;
   }
+
+  .client-feedback h2{
+    margin: 20px 0px;
+  }
   
   .quote-container {
     display: flex;

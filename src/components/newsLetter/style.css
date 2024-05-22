@@ -43,6 +43,10 @@
     -o-border-radius: 20px;
   }
 
+  .newsletter-text h1{
+    margin: 20px 0px;
+  }
+
   @media(max-width: 768px) {
     
     .newsletter-main{
