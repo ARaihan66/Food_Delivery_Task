@@ -1,5 +1,5 @@
 import Comment from "../comment/Comment";
-import FoodItem from "../foodItem/FoodItem";
+//import FoodItem from "../foodItem/FoodItem";
 import OrderProcess from "../order/OrderProcess";
 import "./style.css";
 
@@ -12,7 +12,7 @@ const MainComponent = () => {
         </h3>
         <p>Welcome to The Biggest Network of Food Ordering & Delivery</p>
       </div>
-     <FoodItem/>
+     {/*<FoodItem/>*/}
       <OrderProcess />
       <Comment />
     </div>
