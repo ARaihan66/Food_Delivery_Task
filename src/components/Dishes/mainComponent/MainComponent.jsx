@@ -1,5 +1,5 @@
 import Comment from "../comment/Comment";
-import FoodItem from "../foodItem/FoodItem";
+import FoodItem from "../fooditem/FoodItem";
 import OrderProcess from "../order/OrderProcess";
 import "./style.css";
 
