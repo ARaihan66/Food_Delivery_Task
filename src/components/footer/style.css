@@ -118,3 +118,50 @@
 .footer-links span{
     cursor: pointer;
 }
+
+@media(max-width: 768px) {
+    .footer{
+        justify-content: center;
+        flex-direction: column;
+       align-items: center;
+    }
+
+    .links{
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    .footer-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .footer-logo img{
+        height: 80px;
+        width: 80px;
+    }
+
+    .download{
+        flex-direction: column;
+    }
+
+    .download-apple{
+        margin: 20px 0px;
+    }
+
+    .footer-bottom{
+        padding: 0px 20px;
+        flex-direction: column;
+    }
+
+    .footer-links{
+        margin-top: 10px;
+    }
+
+    .footer-links span{
+        margin-left: 10px;
+    }
+}

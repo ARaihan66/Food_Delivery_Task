@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="links">
           <h4>Quick links</h4>
           <ul>
             <li>Feature</li>
@@ -44,7 +44,7 @@ const Footer = () => {
             <li>Rider</li>
           </ul>
         </div>
-        <div>
+        <div className="links">
           <h4>Get to Know Us</h4>
           <ul>
             <li>Gift Cards</li>
@@ -54,7 +54,7 @@ const Footer = () => {
             <li>Accessibility</li>
           </ul>
         </div>
-        <div>
+        <div className="links">
           <h4>News</h4>
           <ul>
             <li>Blog</li>
@@ -64,8 +64,7 @@ const Footer = () => {
             <li>Press kit</li>
           </ul>
         </div>
-        <div>
-          {" "}
+        <div className="links">
           <h4>Contact</h4>
           <ul>
             <li>Whatsapp</li>
